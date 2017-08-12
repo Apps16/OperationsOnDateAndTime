@@ -15,7 +15,7 @@ public class Calender {
 				sdf.setLenient(false);
 				Date date1 = sdf.parse(date);
 				sdf.format(date1);
-
+                                  
 				System.out.println("valid");
 			} else {
 				System.out.println("valid");
