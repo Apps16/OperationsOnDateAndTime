@@ -7,9 +7,9 @@ import java.util.Date;
 public class Calender {
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
-                                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                         
 		String date = "0000-00-00";
-		try {
+		try {                     
 			if (date != null) {
 				SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 				sdf.setLenient(false);
