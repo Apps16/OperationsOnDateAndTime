@@ -8,7 +8,7 @@ public class Calender {
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
                                                                                                                                                                                                                                                                                                                                                                                                     
-		String date = "0000-00-00";
+		String date = "0000-00-00";                            
 		try {                     
 			if (date != null) {
 				SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
